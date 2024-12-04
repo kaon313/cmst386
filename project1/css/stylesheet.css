@@ -98,7 +98,7 @@ body {
 }
 
 /* Hover zoom for headers */
-.fourelementslist *:hover {
+.headertwoparagraph *:hover {
     transform: scale(1.2);
     transform-origin: left center;
     transition: transform 0.3s linear;
@@ -199,3 +199,59 @@ div.desc {
   display: table;
   clear: both;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .topnavbar {
+        flex-direction: column;
+    }
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(45deg, #3498db, #2ecc71);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.cta-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumbs {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.breadcrumbs a {
+    color: #3498db;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs span {
+    color: #333;
+    font-weight: bold;
+}
+

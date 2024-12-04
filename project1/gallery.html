@@ -9,6 +9,7 @@
     <title>Photo Gallery</title>
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
+
 <body>
     <h1 class="indexheader">Photo Gallery</h1>
 
@@ -20,47 +21,64 @@
                 <a href="gallery.html">Gallery</a>
             </div>
         </li>
-        <li><a href="project2/project2.html" class="disabled-link">Project 2</a></li>
-        <li><a href="project3/project3.html" class="disabled-link">Project 3</a></li>
+        <li><a href="../project2/project2.html">Project 2</a></li>
+        <li class="dropdown1">
+            <a href="../project3/project3.html" class="dropbtn">Project 3</a>
+            <div class="dropdown_content">
+                <a href="../project3/preprocessing.html">Preprocessing</a>
+            </div>
+        </li>
         <li><a href="project4/project4.html" class="disabled-link">Project 4</a></li>
     </ul>
 
-    <div class="galleryimages">
-        <div class="responsive">
-            <div class="gallery">
+    <h2 class="header2">Photo Gallery Example</h2>
+        <p>These four photos are the logos used for HTML, CSS, Javascript, and Python. They are the languages that I am currently learning so I decided to use them here.</p>
+
+
+        <div class="galleryimages">
+            <div class="responsive">
+                <div class="gallery">
+            <figure>
                 <a href="images/html600.png" target="_blank">
                     <img src="images/html.png" alt="HTML logo">
-                    <figcaption class="desc">HTML Logo</figcaption>
                 </a>
+                <figcaption class="desc">HTML Logo</figcaption>
+            </figure>
+                </div>
             </div>
         </div>
 
         <div class="responsive">
             <div class="gallery">
+            <figure>
                 <a href="images/css600.png" target="_blank">
                     <img src="images/css.png" alt="CSS logo">
-                    <figcaption class="desc">CSS Logo</figcaption>
                 </a>
+                <figcaption class="desc">CSS Logo</figcaption>
+            </figure>
             </div>
         </div>
 
         <div class="responsive">
             <div class="gallery">
+            <figure>
                 <a href="images/javascript600.png" target="_blank">
                     <img src="images/javascript.png" alt="JavaScript logo">
-                    <figcaption class="desc">JavaScript Logo</figcaption>
                 </a>
+                <figcaption class="desc">JavaScript Logo</figcaption>
+            </figure>
             </div>
         </div>
 
         <div class="responsive">
             <div class="gallery">
+            <figure>
                 <a href="images/python600.png" target="_blank">
                     <img src="images/python.png" alt="Python logo">
-                    <figcaption class="desc">Python Logo</figcaption>
                 </a>
+            <figcaption class="desc">Python Logo</figcaption>
+            </figure>
             </div>
         </div>
-    </div>
 </body>
 </html>
